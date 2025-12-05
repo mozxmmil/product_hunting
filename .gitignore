@@ -1,0 +1,5 @@
+# dependencies (ignore in all subfolders)
+node_modules/
+
+# large binary that should not be committed
+day_one/public/Antigravity.exe
