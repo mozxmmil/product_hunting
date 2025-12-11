@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
+
+
 const Page = () => {
 	const links = [
 		{ name: "Home", href: "/" },
@@ -17,7 +19,7 @@ const Page = () => {
 	console.log(str, "string");
 
 	return (
-		<div className="relative mx-auto max-w-4xl">
+		<div className="max-w-xl w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-500 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset]">
 			<nav className="flex relative items-center justify-between  border border-neutral-200 shadow-input  mt-5 md:rounded-full overflow-hidden p-2 bg-white">
 				<Image
 					src={"/sparkles.svg"}
