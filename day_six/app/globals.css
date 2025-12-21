@@ -6,7 +6,7 @@
 }
 
 @theme {
-  --color-line: var(--color-neutral-500);
+  --color-line: var(--color-red-500);
 }
 
 @theme inline {
